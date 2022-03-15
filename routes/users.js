@@ -1,9 +1,5 @@
-const router = require('express').Router(); 
 const express = require('express');
-<<<<<<< HEAD
-const router = express.Router();
-=======
->>>>>>> masterbranch
+const router = express.Router(); 
 
 const users = [{name: 'Linus', email: 'linus@mail.com'}]
 
