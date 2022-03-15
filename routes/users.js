@@ -1,7 +1,15 @@
+const router = require('express').Router(); 
 const express = require('express');
+<<<<<<< HEAD
 const router = express.Router();
+=======
+>>>>>>> masterbranch
 
 const users = [{name: 'Linus', email: 'linus@mail.com'}]
+
+router.get('/', (_, res) => {
+    res.send('Your Express App');
+});
 
 router.get('/users', (_, res) => {
     res.json({ ok: true, users });
