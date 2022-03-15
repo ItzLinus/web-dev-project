@@ -1,7 +1,11 @@
 const express = require('express');
-const router = express.Router;
+const router = express.Router();
 
 const users = [{name: 'Linus', email: 'linus@mail.com'}]
+
+router.get('/', (_, res) => {
+    res.send('Your Express App');
+});
 
 router.get('/users', (_, res) => {
     res.json({ ok: true, users });
