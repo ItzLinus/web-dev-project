@@ -1,8 +1,5 @@
-import { Router } from 'express';
+const router = require('express').Router(); 
 const express = require('express');
-
-
-const router = Router();
 
 const users = [{name: 'Linus', email: 'linus@mail.com'}]
 
